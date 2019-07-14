@@ -1,0 +1,315 @@
+body{
+
+    background-image: url(../img/login_img/bgc1.png);
+    height: 992px;
+}
+.login_body{
+    position:absolute;
+    display: block;
+    width: 450px;
+    height: 550px;
+    top:50%;
+    left:50%;
+    margin-top: -275px;
+    margin-left:-225px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    box-shadow:0 9px 30px -6px rgba(0,0,0,.2),
+                0 18px 20px -10px rgba(0,0,0,.04),
+                0 18px 20px -10px rgba(0,0,0,.04),
+                0 10px 20px -10px rgba(0,0,0,.04);
+    background-color: #fff;
+}
+.login_body .top{
+    position: relative;
+    height: 92px;
+    width: 450px;
+    background:url(../img/login_img/login_logo.png);
+    padding-top:75px;
+    margin:23px 0 50px;
+    background-size: 160px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.login_body .top>h4 {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 450px;
+    height: 21px;
+    color: #333;
+    font-weight: 400;
+    font-size: 20px;
+}
+.login_body .bottom{
+    width: 370px;
+    height: 288px;
+    padding: 0 40px 22px;
+}
+/*注册表元素*/
+.form_d ul{
+    list-style: none;
+    margin-bottom: 15px;
+    height: 138px;
+    width: 370px;
+}
+.form_d ul li:first-child,.form_d ul li:nth-child(2){
+    width: 370px;
+    height: 48px;
+    margin-bottom: 15px;
+}
+.form_include{
+    width: 386px;
+    height: 46px;
+    background: #fff;
+    box-shadow: 0 3px 5px -4px rgba(0,0,0,.4) inset, -1px 0 3px -2px rgba(0,0,0,.1) inset;
+    border: #ccc solid 1px;
+    border-radius: 6px;
+    font-size: 18px;
+    height: 46px;
+    line-height: 46px;
+    position:relative;
+}
+.form_include span{
+    height: 46px;
+    width: 46px;
+    border-radius: 6px 0 0 6px;
+    border-right: solid 1px #ccc;
+    box-shadow: 1px 0 3px -1px rgba(0,0,0,.1);
+    float: left;
+    background: -webkit-linear-gradient(#f8f8f8,#fafafa);
+}
+.form_include span i{
+    display:inline-block;
+    background-image:url(../img/login_img/input.png);
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+}
+#form_name>i{
+    background-position: -1px 0;
+}
+#form_pwd>i{
+    background-position: -49px 0;
+}
+.form_include label{
+    color: #bebebe;
+    float: left;
+    font-size: 16px;
+    position: absolute;
+    left: 62px;
+    top: 0;
+}
+.form_include input{
+    position: absolute;
+    left:47px;
+    width: 307px;
+    height: 20px;
+    padding: 12px 12px 12px 15px;
+    color: #333;
+    font-size: 16px;
+    z-index: 1;
+    cursor: text;
+    border:none;
+    opacity:0.5;
+}
+.form_include input:focus { outline: none; }
+/*input附件*/
+#input_bottom{
+    width: 360px;
+    height: 12px;
+    margin: 15px 5px 25px;
+}
+.select{
+    width: 360px;
+    height: 12px;
+    margin-left: 10px;
+    position:relative;
+}
+.select span{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/login_img/select.png);
+}
+.select i{
+    display:inline-block;
+    position:absolute;
+    color: #999;
+    font-size: 12px;
+    line-height: 12px;
+    font-style:normal;
+    top:2px;
+    left:30px;
+}
+.select a{
+    font-size: 12px;
+    color: #5079d9;
+    margin-right: 12px;
+    float:right;
+}
+.select a:last-child{
+    border-right: 1px solid #e5e5e5;
+    width: 110px;
+}
+/*登陆按钮*/
+.login_button{
+    width: 370px;
+    height: 48px;
+    margin-top:30px;
+}
+.login_button>div{
+    width: 370px;
+    height: 46px;
+    padding: 1px;
+    margin-bottom:12px;
+    border-radius: 6px;
+    text-align: center;
+    text-shadow: rgba(255,255,255,.496094) 0 1px;
+}
+.login_button a{
+    display:block;
+    width: 370px;
+    height: 46px;
+    background: linear-gradient(#6f97e5,#527ed9);
+    box-shadow: inset 0 1px 2px #7ea1e8;
+    color: #fff;
+    text-shadow: #4f70b3 0 -1px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 46px;
+}
+/*其他方式登陆*/
+#other_login{
+    width: 370px;
+    height: 18px;
+    border-top:1px solid #d9d9d9;
+    margin-top: 30px;
+    padding-top: 23px;
+}
+#other_login ul{
+    list-style: none;
+}
+#other_login #other_login_ul{
+    width: 370px;
+    height: auto;
+    margin-bottom: 0px;
+}
+#other_login_left{
+    width: 219px;
+    height: 17px;
+    float:left;
+}
+#other_login_items{
+    width: 219px;
+    height: 17px;
+    margin-bottom: 0px;
+}
+#other_login_items li:first-child{
+    color: #999;
+    line-height: 17px;
+    width: 84px;
+    height: 17px;
+    float: left;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+#other_login_items li:nth-child(2),#other_login_items li:nth-child(3),#other_login_items li:nth-child(4),#other_login_items li:nth-child(5){
+    margin-left: 10px;
+    float: left;
+    line-height: 17px;
+    cursor: pointer;
+    width: 20px;
+    height: 17px;
+    margin-bottom: 0px;
+    background: url(../img/login_img/login_other1.png);
+}
+#other_login_items li:nth-child(2):hover,#other_login_items li:nth-child(3):hover,#other_login_items li:nth-child(4):hover,#other_login_items li:nth-child(5):hover{
+    background: url(../img/login_img/login_other2.png);
+}
+#other_login_items li:nth-child(3),#other_login_items li:nth-child(3):hover{
+    background-position: -32px 0px;
+}
+
+#other_login_items li:nth-child(4),#other_login_items li:nth-child(4):hover{
+    background-position: -63px 0px;
+}
+#other_login_items li:nth-child(5),#other_login_items li:nth-child(5):hover{
+    background-position: -89px 0px;
+}
+/*其他登陆右侧*/
+#other_login_right{
+    width: 97px;
+    height: 17px;
+    float:right;
+    margin-bottom: 0px;
+    position: relative;
+}
+#other_login_right a{
+    color: #999;
+    font-size: 12px;
+    line-height: 17px;
+    position: absolute;
+    top:0px;
+}
+#other_login_right a:hover{
+    color: #5079d9;
+}
+/*底部版权信息*/
+#copy{
+    position:absolute;
+    width: 100%;
+    height: 38px;
+    top: 900px;
+    margin-bottom:60px;
+}
+.copy_top{
+    width: 688px;
+    height: 15px;
+    margin:0 auto;
+}
+.copy_top h2{
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    color: rgb(117, 117, 117);
+    font-size:5px;
+    font-weight: 100;
+}
+.copy_top ul{
+    list-style: none;
+    float:right;
+}
+.copy_top ul li{
+    float:right;
+    width: 69px;
+    height: 15px;
+}
+.copy_top ul li a{
+    display:inline-block;
+    height: 15px;
+    line-height: 15px;
+    color:#5079d9;
+    font-size:5px;
+    font-weight: 100;
+    border-left:#d9d9d9;
+}
+
+.copy_bottom{
+    width: 688px;
+    height: 15px;
+    margin:0 auto;
+    text-align: center;
+}
+.copy_bottom a{
+    display:inline-block;
+    height: 15px;
+    line-height: 15px;
+    color:#5079d9;
+    font-size:5px;
+    font-weight: 100;
+
+}

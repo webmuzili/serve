@@ -1,0 +1,73 @@
+.header{
+    height: 44px;
+    background-color: #28292c;
+    position:relative;
+}
+/*左log部分*/
+.header .header_log a{
+    display: block;
+    width: 20px;
+    height: 19px;
+    background:url("../img/logo.png");
+    background-size: 20px 19px;
+}
+.header .header_log{
+    width:50px;
+    margin-left:21px;
+    position: absolute;
+    top:13px;
+}
+/*log中间部分*/
+.header .header_middle{
+    width: 850px;
+    position:absolute;
+    left:280px;
+}
+.header .header_middle ul{
+    list-style: none;
+}
+.header .header_middle ul li{
+    float:left;
+}
+.header .header_middle ul li a{
+    color:#c0c0c1;
+    font-size:12px;
+    padding: 0 20px;
+    line-height: 44px;
+}
+.header .header_middle ul li:first-child a{
+    color:#e5e5e5;
+    font-weight: 700;
+}
+/*log 右边部分*/
+.header_right{
+    width: 100px;
+    float:right;
+    position:relative;
+}
+.header_right .zhuce1{
+    position:absolute;
+    top:13px;
+    left: 8px;
+}
+.header_right .gouwuche1{
+    position:absolute;
+    top:13px;
+    left:50px;
+}
+.header_right div .zhuce{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background:url("../img/log_right.png")  no-repeat;
+    background-position: -1px 0px;
+    background-size: 208%;
+}
+.header_right div .gouwuche{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background:url("../img/log_right.png")  no-repeat;
+    background-position: -1px -20px;
+    background-size: 208%;
+}

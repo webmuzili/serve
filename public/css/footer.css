@@ -1,0 +1,117 @@
+.footer{
+    height: 353px;
+    background:#fafafa;
+}
+.footer .footer_in .footer_center{
+    padding-top:60px;
+    position:relative;
+    height: 158px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.footer_center ul li{
+    list-style: none;
+    width: 48px;
+    height: 110px;
+    float:left;
+    margin-right:90px;
+
+}
+.footer_center ul li h3{
+    color: #646464;
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom:20px
+}
+#list1,#list2,#list3,#list4,#list5,#list6{
+    list-style: none;
+}
+#list1 li,#list2 li,#list3 li,#list4 li,#list5 li,#list6 li{
+    width: 48px;
+    height: 12px;
+    padding:7px 0;
+}
+#list1 li a,#list2 li a,#list3 li a,#list4 li a,#list5 li a,#list6 li a{
+    color: #969696;
+    font-size: 12px;
+}
+/*右边*/
+.footer_right{
+    width: 204px;
+    height: 112px;
+    position: absolute;
+    right:0;
+}
+.footer_right li:first-child{
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 17px;
+    cursor: default;
+    color: #5079d9;
+    width: 204px;
+    height: 17px;
+    text-align: right;
+    margin-right: 0px;
+}
+.footer_right li:nth-child(2),.footer_right li:nth-child(3){
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+    width: 204px;
+    height: 15px;
+    line-height:15px;
+    margin-top:10px;
+    margin-right: 0px;
+}
+.footer_right li:nth-child(3){
+    margin-top:0px;
+}
+.footer_right li:nth-child(4){
+    width: 204px;
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+}
+.footer_right li:nth-child(4) a{
+    float: right;
+    width: 132px;
+    height: 30px;
+    line-height: 30px;
+    background: linear-gradient(#fcfcfc,#f5f5f5);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 15px;
+    text-align: center;
+    color: #5079d9;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/*最底部*/
+.footer_bottom{
+    height: 40px;
+    padding:30px 0 60px;
+}
+.footer_bottom span{
+    color: #ababab;
+    font-size: 12px;
+    margin-right:5px;
+}
+.footer_bottom ul{
+    display:inline-block;
+}
+.footer_bottom ul li{
+    list-style: none;
+    display:inline-block;
+    border-left: 1px solid #ccc;
+    line-height: 12px;
+    padding: 1px 10px 0;
+}
+.footer_bottom ul li a{
+    color: #ababab;
+    font-size: 12px
+}
+.footer_bottom .bb span{
+    margin-right: 20px;
+}
+
